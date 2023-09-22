@@ -1,0 +1,326 @@
+{
+    "0": {
+        "input": {
+            "column_name": "收货日期,商品名称,单位,数量,单价,金额",
+            "sheet_exclude": "中交商品税率一览表,配送单,商品明细,配送单模板"
+        },
+        "output": {
+            "folder_path": "data",
+            "column_width": {
+                "A": 10,
+                "B": 23,
+                "C": 9,
+                "D": 10,
+                "E": 10,
+                "F": 13,
+                "G": 7
+            },
+            "stamp": {
+                "path": "asset/hengyu.png",
+                "column": "C",
+                "x_scale": 0.95,
+                "y_scale": 1,
+                "y_offset": 2,
+                "page_height": 750,
+                "enable": true
+            },
+            "row1": {
+                "height": 35,
+                "contents": [
+                    "配送单"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 16,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row2": {
+                "height": 27,
+                "contents": [
+                    "下单日期：",
+                    "司机名称：李尧"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row3": {
+                "height": 27,
+                "contents": [
+                    "配送日期：",
+                    "司机电话：13876242672"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row4": {
+                "height": 27,
+                "contents": [
+                    "序号,商品名,单位,数量,单价,下单金额,备注"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1
+                    }
+                ]
+            },
+            "row5": {
+                "height": 24,
+                "contents": [],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "text_wrap": 1
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "num_format": "#,##0.00"
+                    }
+                ]
+            },
+            "row_sum": {
+                "height": 24,
+                "contents": [
+                    "合计"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "num_format": "#,##0.00"
+                    }
+                ]
+            },
+            "row_last": {
+                "height": 24,
+                "contents": [
+                    "收货人",
+                    "监督人"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    }
+                ]
+            }
+        }
+    },
+    "1": {
+        "input": {
+            "column_name": "收货日期,商品名称,单位,数量,单价,金额",
+            "sheet_exclude": "送货单,配送单模板"
+        },
+        "output": {
+            "folder_path": "data",
+            "column_width": {
+                "A": 10,
+                "B": 23,
+                "C": 9,
+                "D": 10,
+                "E": 10,
+                "F": 13,
+                "G": 7
+            },
+            "stamp": {
+                "path": "asset/hengyu.png",
+                "column": "C",
+                "x_scale": 0.95,
+                "y_scale": 1,
+                "y_offset": 2,
+                "page_height": 750,
+                "enable": true
+            },
+            "row1": {
+                "height": 35,
+                "contents": [
+                    "配送单"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 16,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row2": {
+                "height": 27,
+                "contents": [
+                    "下单日期：",
+                    "司机名称：吴均向"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row3": {
+                "height": 27,
+                "contents": [
+                    "配送日期：",
+                    "司机电话：13876387960"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre"
+                    }
+                ]
+            },
+            "row4": {
+                "height": 27,
+                "contents": [
+                    "序号,商品名,单位,数量,单价,下单金额,备注"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1
+                    }
+                ]
+            },
+            "row5": {
+                "height": 24,
+                "contents": [],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "text_wrap": 1
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "num_format": "#,##0.00"
+                    }
+                ]
+            },
+            "row_sum": {
+                "height": 24,
+                "contents": [
+                    "合计"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1
+                    },
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "bold": true,
+                        "align": "centre",
+                        "valign": "vcentre",
+                        "border": 1,
+                        "num_format": "#,##0.00"
+                    }
+                ]
+            },
+            "row_last": {
+                "height": 24,
+                "contents": [
+                    "收货人",
+                    "收货方"
+                ],
+                "formats": [
+                    {
+                        "font_name": "宋体",
+                        "font_size": 12,
+                        "align": "left",
+                        "valign": "vcentre"
+                    }
+                ]
+            }
+        }
+    }
+}
